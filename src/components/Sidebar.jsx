@@ -12,7 +12,7 @@ const Sidebae = () => {
           <a onClick={closeSidebar} href="#home">Home</a>
           <a onClick={closeSidebar} href="#feature">Features</a>
           <a onClick={closeSidebar} href="#product">Product</a>
-          <a onClick={closeSidebar} href="#client">Clients</a>
+          <a onClick={closeSidebar} href="#client">Client</a>
         </div>
       </div>
     </div>
