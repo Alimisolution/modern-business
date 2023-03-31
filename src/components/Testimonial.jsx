@@ -16,9 +16,9 @@ const Testimonial = () => {
         <p className='text-gray-400 text-lg md:text-xl ml-0 lg:ml-16'>Every you need to accept card payments and grow 
         your business everywhere on planet.</p>
       </div>
-      <div className='flex flex-col md:flex-row justify-start items-center gap-0 md:gap-12 '>
+      <div className='flex flex-col md:flex-row justify-start items-center gap-4 mt-16 '>
         
-        <div className='mt-24 hover:bg-gray-800 p-6 rounded-2xl'>
+        <div className='hover:bg-gray-800 p-6 rounded-2xl'>
             <img src={quote} alt="quote img" className='mb-6'/>
             <p className='text-white text-md'>Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver </p>
             <div className='flex justify-start items-center p-8'>
@@ -29,7 +29,7 @@ const Testimonial = () => {
                 </div>
             </div>
         </div>
-        <div className='mt-24 hover:bg-gray-800 p-6 rounded-2xl'>
+        <div className='hover:bg-gray-800 p-6 rounded-2xl'>
             <img src={quote} alt="quote img" className='mb-6'/>
             <p className='text-white text-md'>Money is makes your life easier, if you're lucky to have it, you're lucky </p>
             <div className='flex justify-start items-center p-8'>
@@ -40,7 +40,7 @@ const Testimonial = () => {
                 </div>
             </div>
         </div>
-        <div className='mt-24 hover:bg-gray-800 p-6 rounded-2xl'>
+        <div className='hover:bg-gray-800 p-6 rounded-2xl'>
             <img src={quote} alt="quote img" className='mb-6'/>
             <p className='text-white text-md'>Is is usually prople in the money business, financial and international trade that are really rcih  </p>
             <div className='flex justify-start items-center p-8'>
