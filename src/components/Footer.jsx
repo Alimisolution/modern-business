@@ -1,5 +1,9 @@
 import React from 'react';
 import Logo from '../assets/logo.svg';
+import facebook from '../assets/facebook.svg'
+import instagram from '../assets/instagram.svg'
+import linkedin from '../assets/linkedin.svg'
+import twitter from '../assets/twitter.svg'
 
 const Footer = () => {
   return (
@@ -29,7 +33,16 @@ const Footer = () => {
             <a href="#">Become a Partner</a>
         </div>
         </div>
-    <p className='text-gray-400 text-center pt-24' >Copy and Copyright by @Alimisolution 2023. All Rights Reserved.</p>
+        <div className='w-full bg-gray-500 mt-12 footer-line'></div>
+        <div className='flex flex-col md:flex-row items-center justify-between gap-12 pt-12'>
+            <p className='text-gray-400 text-center' >Copy and Copyright by @Alimisolution 2023. All Rights Reserved.</p>
+            <div className='flex flex-row items-center justify-center gap-6'>
+                <img src={facebook} alt="facebook img" className='cursor-pointer' />
+                <img src={linkedin} alt="linkedin img" className='cursor-pointer' />
+                <img src={twitter} alt="twitter img" className='cursor-pointer' />
+                <img src={instagram} alt="instagram img" className='cursor-pointer' />
+            </div>
+        </div>
     </div>
   )
 }

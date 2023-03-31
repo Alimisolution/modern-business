@@ -16,7 +16,7 @@ const Testimonial = () => {
         <p className='text-gray-400 text-lg md:text-xl ml-0 lg:ml-16'>Every you need to accept card payments and grow 
         your business everywhere on planet.</p>
       </div>
-      <div className='flex flex-col md:flex-row justify-start items-center md:gap-12 '>
+      <div className='flex flex-col md:flex-row justify-start items-center gap-0 md:gap-12 '>
         
         <div className='mt-24 hover:bg-gray-800 p-6 rounded-2xl'>
             <img src={quote} alt="quote img" className='mb-6'/>
