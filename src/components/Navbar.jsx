@@ -9,7 +9,7 @@ const {openSidebar} = useGlobalContext()
 
   return (
     <div >
-      <nav className='py-6 flex flex-row items-center justify-between position-fixed top-0 left-0 z-2'>
+      <nav className='py-6 flex flex-row items-center justify-between'>
         <img src={Logo} alt="logo" className='w-[130px] lg:w-[170px]'/>
         <div className='text-white text-lg font-semi-bold hidden lg:block'>
           <a href="#home" className='mr-[2rem] hover:text-green-300'>Home</a>
