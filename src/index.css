@@ -59,6 +59,12 @@ body{
     position: absolute;
     top: 1rem;
     right: 1.5rem;
+    font-weight: 900;
+    font-size: 3rem;
+}
+.bars{
+    font-weight: 900;
+    font-size: 2rem;
 }
 .hide{
     opacity: 0;

@@ -1,5 +1,4 @@
 import React from 'react';
-import {FaTimes} from 'react-icons/fa';
 import { useGlobalContext } from '../Context';
 
 const Sidebae = () => {
@@ -7,12 +6,14 @@ const Sidebae = () => {
   return (
     <div className={`${show ? 'sidebar shows' : 'hide'}`}>
       <div className='sidebar-inner'>
-        <FaTimes size={25} className='close' onClick={closeSidebar}/>
+        <button className='close' onClick={closeSidebar}>
+        &#215;
+        </button>
       <div className='navs'>
           <a onClick={closeSidebar} href="#home">Home</a>
           <a onClick={closeSidebar} href="#feature">Features</a>
           <a onClick={closeSidebar} href="#product">Product</a>
-          <a onClick={closeSidebar} href="#client">Client</a>
+          <a onClick={closeSidebar} href="#client">Clients</a>
         </div>
       </div>
     </div>

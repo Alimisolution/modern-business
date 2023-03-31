@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Logo from '../assets/logo.svg';
-import {FaBars} from 'react-icons/fa';
+import menu from '../assets/menu.svg';
 import { useGlobalContext } from '../Context';
 
 const Navbar = () => {
@@ -17,7 +17,9 @@ const {openSidebar} = useGlobalContext()
           <a href="#product" className='mr-[2rem] hover:text-green-300'>Product</a>
           <a href="#client" className='hover:text-green-300'>Clients</a>
         </div>
-      <FaBars size={30} className="text-white block lg:hidden cursor-pointer" onClick={openSidebar}/>
+        <button className="text-white block lg:hidden cursor-pointer" id='bars' onClick={openSidebar}>
+          <img src={menu} alt="menu img" />
+        </button>
       </nav>
      
 
