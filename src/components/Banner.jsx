@@ -1,5 +1,5 @@
 import React from 'react';
-import discount from '../assets/discount.svg'
+import Discount from '../assets/discount.svg'
 import bannerImg from '../assets/robot.png'
 
 const Banner = () => {
@@ -7,7 +7,7 @@ const Banner = () => {
     <div className=' pt-24 lg:pb-2 flex flex-col md:flex-row gap-16' id='home'>
         <div className='text-white '>
             <div className='bg-gray-700 w-[100%] md:w-[10%]flex-row flex items-center justify-center'>
-                <img src={discount} alt="discount" />
+                <img src={Discount} alt="discount" />
                 <p className='ml-4 font-semi-bold'>20% <span className='text-gray-300'>Discount for </span>1 Month <span className='text-gray-300'>Account</span></p>
             </div>
                 <h1 className='text-3xl lg:text-8xl font-bold pt-[2rem]'>The Next <span className='text-blue-300'>Generation</span> Payment Method.</h1>
