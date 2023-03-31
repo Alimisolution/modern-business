@@ -30,7 +30,7 @@ body{
     display: none;
 }
 .sidebar-inner{
-    top: 50%;
+    top: 45%;
     left: 50%;
     position: absolute;
     width: 90%;
